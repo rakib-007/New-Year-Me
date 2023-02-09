@@ -74,6 +74,10 @@ section{
 .my-plan-area{
     text-align: center;
 }
+.my-plan-area h2{
+    font-weight: 700;
+    font-size: 40px;
+}
 .plan-carts{
     display: flex;
     justify-content: space-around;
@@ -91,9 +95,9 @@ section{
 }
 .positive-mindset{
     border-radius: 8px; 
-    background-image: url(./images/gradient3.png) , url(./images/watch.png);
+    background-image:linear-gradient(to right, #F15B22, rgba(241, 91, 34, 0)),url(./images/watch.png);
     background-repeat: no-repeat;
-    background-position:left;
+    background-size: cover;
     padding: 25px;
 }
 .positive-mindset h2{
